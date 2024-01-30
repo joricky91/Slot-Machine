@@ -26,6 +26,11 @@
 		51C16EFC2B63B35B008BDCE0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C16EFB2B63B35B008BDCE0 /* Extensions.swift */; };
 		51C16EFE2B63B866008BDCE0 /* ReelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C16EFD2B63B866008BDCE0 /* ReelView.swift */; };
 		51C16F002B67AB03008BDCE0 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C16EFF2B67AB03008BDCE0 /* InfoView.swift */; };
+		51C16F022B68F5C1008BDCE0 /* LosePopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C16F012B68F5C1008BDCE0 /* LosePopupView.swift */; };
+		51C16F042B68F729008BDCE0 /* ChipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C16F032B68F729008BDCE0 /* ChipsView.swift */; };
+		51C16F062B68F8B8008BDCE0 /* NumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C16F052B68F8B8008BDCE0 /* NumberView.swift */; };
+		51C16F092B68F909008BDCE0 /* SlotViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C16F082B68F909008BDCE0 /* SlotViewModel.swift */; };
+		51C16F0B2B68FBC1008BDCE0 /* ReelWrapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C16F0A2B68FBC1008BDCE0 /* ReelWrapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +54,11 @@
 		51C16EFB2B63B35B008BDCE0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		51C16EFD2B63B866008BDCE0 /* ReelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelView.swift; sourceTree = "<group>"; };
 		51C16EFF2B67AB03008BDCE0 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		51C16F012B68F5C1008BDCE0 /* LosePopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LosePopupView.swift; sourceTree = "<group>"; };
+		51C16F032B68F729008BDCE0 /* ChipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipsView.swift; sourceTree = "<group>"; };
+		51C16F052B68F8B8008BDCE0 /* NumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberView.swift; sourceTree = "<group>"; };
+		51C16F082B68F909008BDCE0 /* SlotViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotViewModel.swift; sourceTree = "<group>"; };
+		51C16F0A2B68FBC1008BDCE0 /* ReelWrapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelWrapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +94,7 @@
 				515CCB792B63AB61008A30E0 /* LaunchScreen.storyboard */,
 				515CCB762B63AAE4008A30E0 /* Helpers */,
 				515CCB742B63AAD2008A30E0 /* Sounds */,
+				51C16F072B68F8DE008BDCE0 /* ViewModel */,
 				515CCB752B63AADE008A30E0 /* Views */,
 				515CCB562B63A9A7008A30E0 /* Slot_MachineApp.swift */,
 				515CCB5A2B63A9AA008A30E0 /* Assets.xcassets */,
@@ -122,6 +133,10 @@
 				51C16EF72B63B124008BDCE0 /* LogoView.swift */,
 				51C16EFD2B63B866008BDCE0 /* ReelView.swift */,
 				51C16EFF2B67AB03008BDCE0 /* InfoView.swift */,
+				51C16F012B68F5C1008BDCE0 /* LosePopupView.swift */,
+				51C16F032B68F729008BDCE0 /* ChipsView.swift */,
+				51C16F052B68F8B8008BDCE0 /* NumberView.swift */,
+				51C16F0A2B68FBC1008BDCE0 /* ReelWrapView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -134,6 +149,14 @@
 				51C16EFB2B63B35B008BDCE0 /* Extensions.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		51C16F072B68F8DE008BDCE0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				51C16F082B68F909008BDCE0 /* SlotViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,10 +241,15 @@
 				51C16F002B67AB03008BDCE0 /* InfoView.swift in Sources */,
 				515CCB592B63A9A7008A30E0 /* ContentView.swift in Sources */,
 				51C16EFC2B63B35B008BDCE0 /* Extensions.swift in Sources */,
+				51C16F0B2B68FBC1008BDCE0 /* ReelWrapView.swift in Sources */,
 				51C16EF82B63B124008BDCE0 /* LogoView.swift in Sources */,
+				51C16F092B68F909008BDCE0 /* SlotViewModel.swift in Sources */,
+				51C16F042B68F729008BDCE0 /* ChipsView.swift in Sources */,
 				51C16EF62B63B084008BDCE0 /* ColorHelper.swift in Sources */,
+				51C16F022B68F5C1008BDCE0 /* LosePopupView.swift in Sources */,
 				51C16EFE2B63B866008BDCE0 /* ReelView.swift in Sources */,
 				515CCB572B63A9A7008A30E0 /* Slot_MachineApp.swift in Sources */,
+				51C16F062B68F8B8008BDCE0 /* NumberView.swift in Sources */,
 				51C16EFA2B63B149008BDCE0 /* Modifiers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
